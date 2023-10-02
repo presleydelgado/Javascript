@@ -1,0 +1,22 @@
+O que JS é capaz de fazer ?
+
+Dicas de aprendizagem
+
+JS versus ECMAScript
+
+Requisitos de software ?
+
+Primeiros scripts em JS
+
+Aula 1
+
+Javascript é uma tecnologia client side.
+
+
+1993 timothy Benners Lee ( TLB ) criou uma tecnologia para transformar em algo mais interativa, HTML, HTPP, WWW.
+
+1995 ex funcionario da silicion graphics, brandon nike, criador de uma linguagem que dava mais funcionalidade ao html,começou com moca, e estava nascendo a linguagem java.Surge ai o Javascript,mas Java e Javascript são duas linguagens diferentes.
+
+1997 surgiu a ecmascript que é uma padronização da linguagem.
+
+
