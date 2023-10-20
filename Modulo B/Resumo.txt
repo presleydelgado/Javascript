@@ -1,0 +1,33 @@
+Tipos de dados e variaveis 
+
+Aula 5 
+
+window.alert()
+
+window.confirm()
+
+window.prompt()
+
+
+Comentários podem usar // ou /* */
+
+variavel = var
+
+o sinal de = no javascript,deve ser lido como (recebe)
+
+a1 = ( recebe ) 5 
+
+O nome de cada variavel é chamado de = identificador ( existem regras para denominar isso )
+
+- Podem começar com letra , $ ou _
+
+- Não podem começar com números
+
+- É possível usar letras ou números
+
+- É possível usar acentos e símbolos
+
+- Não podem conter espaços
+
+- Não podem ser palavras reservadas (ex: function, alert , var)
+
