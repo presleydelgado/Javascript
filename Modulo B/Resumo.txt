@@ -31,3 +31,31 @@ O nome de cada variavel é chamado de = identificador ( existem regras para deno
 
 - Não podem ser palavras reservadas (ex: function, alert , var)
 
+- Maiusculas e minusculas fazem diferença
+
+- Tente escolher nomes coerentes para as variáveis
+
+- Evite se tornar um "programador alfabeto" ou um "programador contador"
+
+O javascript não difere de numeros inteiros e numeros flutuantes 
+
+Data Types :
+
+number , string , boolean , null , undefined , object , array , function
+
+valores internos 
+
+number : infinity , NaN (not a number)
+
+typeof
+
+
+Aula 6
+
+Manipulação de Dados 
+
+prompt guarda dados, ex : Qual é o seu nome ? ( se usa o prompt )
+
+window.prompt("Qual é seu nome ?")
+
+
