@@ -59,3 +59,18 @@ prompt guarda dados, ex : Qual é o seu nome ? ( se usa o prompt )
 window.prompt("Qual é seu nome ?")
 
 
+ É necessário converter de string para number 
+
+Number.parseInt(n)
+
+Number.parseFloat(n)
+
+Number(n)
+
+Conversão de número para string 
+
+String(n)
+
+n.toString()
+
+

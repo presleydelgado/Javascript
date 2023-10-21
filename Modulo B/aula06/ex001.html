@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+    <style>
+        body{
+            background-color: #2fc1f1;
+            color: black;   /*comentario em CSS */
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1> <!--Comentario em HTML-->
+    <p>Putz putz putz </p>
+
+    <script>
+       // var nome = window.prompt('Qual é o seu nome ?') // Vai me perguntar o nome
+       // window.alert("É um grande prazer em te conhecer , " + nome); // < Concatenação
+
+       var n1 = Number.parseFloat(prompt("Digite um numero: "));
+       var n2 = Number.parseFloat(window.prompt("Digite outro número: ")); //Tem a mesma parada do C#
+       var soma = n1 + n2; 
+       window.alert("A soma dos valores é " + String(soma)); // concatenação para string,não é necessário nesse caso.
+       // + para adição
+       // + para concatenação
+    </script>
+</body>
+</html>
