@@ -74,3 +74,34 @@ String(n)
 n.toString()
 
 
+Formatando strings 
+
+var s = "javascript"
+
+Eu estou aprendendo s		// não faz interpolação
+"Eu estou aprendendo" + s	// usa concatenação
+"Eu estou aprendendo ${s}"	// usa template string ( place holder )
+
+s.length 			//Quantos caracteres a string tem
+s.toUpperCase()			// Tudo para maiúsculas
+s.toLowerCase()			// Tudo para minusculas
+
+
+Formatando números 
+
+var n1 = 1543.5
+n1
+
+n1.toFixed(2)  ==> muda a quantidade de casas decimais de um numero float
+
+Para converter para moeda monetária,um exemplo com o real R$
+ex: 1545.50 
+
+VV
+
+n1.toLocalString('pt-BR', {style: 'currency', currency: 'BRL'})
+'R$ 1,545.50'
+
+
+
+
