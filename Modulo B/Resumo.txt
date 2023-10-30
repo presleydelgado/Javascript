@@ -140,3 +140,63 @@ var atual = 600000.00;
 //com R$
 var f = atual.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
 
+
+
+Operadores do JS 
+
+parte 1 
+
+pratique e descanse
+
+O java script possui várias familias de operadores : aritméticos , atribuição , relacionais , lógicos e ternários.
+
+o typeoff é um tipo de operador
+
+aritméticos e atribuição : 
+aritméticos : + , - , * , / , % , **
+ex :
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2,5	//divisão real
+5 % 2 =	1	//divisão inteira, é o resto da divisão
+5 ** 2 = 25	//potencia,ao quadrado
+
+A ordem de precedência dos operadores aritméticos :
+
+() depois as potencias ** e depois * , / , % e por ultimo + e -.
+
+
+Operador de ATRIBUIÇÃO SIMPLES:
+
+
+var a = 5 + 3		//8
+var b = a % 5 		//3
+var c = 5 * b ** 2 	//45
+var d = 10 - a / 2 	//6
+var e = 6 * 2 / d	//2
+var f = b % e + 4 / e 	//3
+
+
+Auto-atribuições 
+
+var n = 3 
+
+n = n + 4 		//Significa que vai somar o que está depois de = e o resultado vai ir para n.
+
+n = n - 5 		//2
+
+n = n * 4 		//8
+
+n = n / 2 		//4
+
+n = n ** 2 		//16
+
+n = n % 5		//1
+
+
+Simplificando 
+
+n += 4 		// Só serve se a mesma variavel receber ela + 4 , se for x + 4 não funciona
+
+
