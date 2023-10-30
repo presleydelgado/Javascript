@@ -135,5 +135,8 @@ Onde o nome é a variavel, e o to UpperCase() é o que irá fazer o texto ficar 
 
 Questão 4 : Como mostrar um número formatado como valor monetário ?
 
+var atual = 600000.00;
 
+//com R$
+var f = atual.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
 
