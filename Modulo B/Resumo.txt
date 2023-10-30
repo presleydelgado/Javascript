@@ -199,4 +199,37 @@ Simplificando
 
 n += 4 		// Só serve se a mesma variavel receber ela + 4 , se for x + 4 não funciona
 
+n -= 5 
+
+n *= 4 
+
+n /= 2 
+
+n **= 2
+
+n %= 5
+
+
+Operadores de incremento 
+
+var x = 5
+
+x = x + 1	//6
+
+x = x - 1	//5
+
+x += 1
+
+x -= 1
+
+existe uma versão ainda mais simplificada que é o :
+
+x++ e x--
+
+existe o pós incremento e o pré incremento 
+
+++x e --x 
+
+
+
 
