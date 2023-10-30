@@ -11,6 +11,15 @@
         document.write(`Olá <strong>${nome}</strong>! , seu nome tem ${nome.length} letras.<br>`) //só funciona com crase esse ${}...
         document.write(`Seu nome em maisculas é ${nome.toUpperCase()}<br>`)
         document.write(`Seu nome em minusculas é ${nome.toLowerCase()}`)
+        let numero = window.prompt("Digite um valor:")
+        let numero2 = window.prompt("Digite outro valor:")
+        numero = parseInt(numero);
+        numero2 = parseInt(numero2);
+        let soma = numero + numero2;
+        document.write(`A soma de ${numero} + ${numero2} = ${soma}`)
+        var valor = window.prompt("Digite um valor:")
+        var total = valor.toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'});
+        document.write(`O valor é ${total}`);
         
     </script>
 </body>
