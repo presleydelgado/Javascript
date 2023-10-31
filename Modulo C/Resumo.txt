@@ -23,7 +23,43 @@ R: var valor = 1
 var valorternario = valor < 5 ? 'menor que cinco' : 'maior que cinco'
 valorternario = 'menor que cinco'
 
+
+
 Entendendo o DOM
+
+
+Dom ( Document Object Model ) é um conjunto de objetos dentro do seu navegador que vai dar acesso aos componentes internos do seu website, o dom não funciona dentro do node js , apenas no navegador.
+
+Árvore DOM 
+
+Começa na raiz com o (window) e se ramifica para (location) diz sobre a localização do seu site,por exemplo URL, (document) o documento atual, (history) o history guarda de onde você veio e para você vai.
+
+Dentro do document, tem o (html) e dentro do html tem (head) e o (body) 
+
+Dentro de head temos (meta) (title) 
+
+Dentro do body temos (h1) , (p) , (p) "strong" , (div).
+
+Elementos são tudo o que aparece nessa arvore DOM
+
+Selecionando 
+por marca		(getElementsByTagName())
+por ID			(getElementById())
+por Nome		(getElementsByName())	//Por estar no plural , é necessário usar []
+por Classe		(getElementsByClassName())
+por Seletor		(querySelector())
+			(querySelectorAll())
+
+Toda classe é representada por um . 
+
+Toda ID é representada pro uma # .
+
+
+
+Aula 10 
+
+
+
 
 
 
