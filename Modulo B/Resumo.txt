@@ -232,4 +232,48 @@ existe o pós incremento e o pré incremento
 
 
 
+Aula 8 
+
+Questão 1 : Para que serve o operador % em JS ?seria para calcular porcentagem ?
+
+R : O simbolo % serve para pegar o resto inteiro de uma divisão.
+
+Questão 2 : 6 + 4 / 2 é igual a 5 ou 8 ?
+
+R: 8
+
+Questão 3 : Se uma variável N está valendo 10 e executamos um N += 5 , qual será seu novo valor ?
+
+R : 15
+
+Questão 4 : Para que servem os operadores ++ e -- ?
+
+R : A mesma função que +1 , só que de forma encurtada e mais aceita.
+
+Operadores do JS parte 2 
+
+Operadores : Relacionais , Lógicos e Ternário.
+
+Os operadores relacionais são : > , < , >= , <= , == , !=
+
+> (maior)
+< (menor)
+>= (maior ou igual a)
+<= (menor ou igual a)
+== (igual)
+!= (diferente)
+
+TODA EXPRESSÃO QUE TENHA UM OPERADOR RELACIONAL, SERÁ UM VALOR BOOLEANO!!!
+
+exemplos :
+
+5 > 2 = true
+7 < 4 = false
+8 >= 8 = true
+9 <= 7 = false
+5 == 5 = true
+4 != 4 = false
+
+o sinal = é um sinal de atribuição, lemos ele como ( recebe ) , o sinal de igual é ==
+
 
