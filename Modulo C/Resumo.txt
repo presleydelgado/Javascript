@@ -1,0 +1,10 @@
+Modulo C 
+
+Usaremos o conhecimento do modulo A e B para aprender sobre o DOM
+
+Document Object Model - é a vertente web do javascript pro qual a linguagem foi criada.Uma poderosa ferramenta que está dentro do seu browser.
+
+Vamos aprender a fazer uma arvore DOM do seu site. 
+
+Manipularemos o DOM.
+
