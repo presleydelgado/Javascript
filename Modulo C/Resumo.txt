@@ -8,3 +8,22 @@ Vamos aprender a fazer uma arvore DOM do seu site.
 
 Manipularemos o DOM.
 
+
+Aula 9 
+
+Questão 1 : Qual é a diferença entre = , == e === em códigos escritos em JS ?
+
+R : = é um sinal que recebe , == é igual ,mas sem diferenciar de string para number e === é igual restrito,apenas string com string,ou number com number.
+
+Questão 2 : Em uma mesma expressão , temos os operadores || e && , qual eu resolvo primeiro ? 
+R: &&
+
+Questão 3 : Sabe usar o operador ternário para colocar um valor entre dois valores em uma variável ?
+R: var valor = 1
+var valorternario = valor < 5 ? 'menor que cinco' : 'maior que cinco'
+valorternario = 'menor que cinco'
+
+Entendendo o DOM
+
+
+
