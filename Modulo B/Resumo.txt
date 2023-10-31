@@ -276,4 +276,77 @@ exemplos :
 
 o sinal = é um sinal de atribuição, lemos ele como ( recebe ) , o sinal de igual é ==
 
+operador de identidade, conhecido como operador de igualdade restrita : ===
+
+ex : 
+
+5 == '5' (true)
+
+5 === '5' (false)
+
+5 === 5 (true)
+
+
+Operadores Lógicos :
+
+!		//Negação 
+&&		//Conjunção (E)
+||		//Disjunção (OU)
+
+Negação 
+
+(!) é tratado como operador unário, ou é true ou false 
+
+(&&) Operador de conjunção é um operador binário, tem dois valores de cada lado , (V,V,F,F) e (V,F,V,F). ( SÓ PODER SER V,V)
+
+V - V = TRUE
+V = F = FALSE
+F = V = FALSE
+F = F = FALSE
+
+Disjunção 
+
+|| (dois pipes) , tem dois valores lógicos,um de cada lado (V,V,F,F) e (V,F,V,F) (basta que um deles seja V para o resultado ser V).
+
+V - V = TRUE
+V - F = TRUE
+F - V = TRUE
+F - F = FALSE
+
+
+Ex : a > b && b % 2 == 0
+
+Quando se há operadores aritmeticos e lógicos e relacionais na mesma operação , a ordem será 
+
+Ordem da operação :
+
+1° - Operadores aritméticos 	(%)	
+2° - Operadores relacionais	(>)
+3° - Operadores lógicos		(&&)
+
+Ordem de execução
+
+1° - Não (!)
+2° - E	 (&&)
+3° - OU	 (||)
+
+Ordem de precedência 
+
+1- () ** / ...
+
+2 - > < >= ...
+
+3 - ! && || 
+
+
+Operador Ternário :
+
+? , : 
+
+TESTE ? TRUE : FALSE 
+
+EX:
+média >= 7.0 ? "Aprovado" : "Reprovado"
+
+
 
