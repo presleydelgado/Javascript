@@ -74,6 +74,59 @@ R : Por marca , ID , Nome , Classe , Seletor
 
 Eventos DOM 
 
+DOM = é um facilitador dentro do navegador para dar acesso aos elementos para o javascript , sem o dom , teriamos muita dificuldade para acessar os elementos da nossa página. 
+
+
+Vimos as tecnicas para acessar elementos dentro do javascript :
+
+TagName 
+ID
+Name
+ClassName
+querySelector
+
+
+Eventos DOM :
+
+<DIV>
+
+Evento é tudo aquilo que possa acontecer com o elemento.
+
+O mais comum é eventos de mouse .
+
+ex : mouseenter,mousemove,mousedown,mouseup,click,mouseout.
+
+
+Para disparar um evento,é necessário uma função 
+
+é um conjunto de código,que é chamado de bloco, essas linhas de códigos não vão ser ativadas automaticamente,apenas quando um evento ocorrer.
+
+O primeiro passo é colocar dentro de um bloco , delimitado por chaves {}
+
+E deve ser nomeado com function
+
+function ação(param) {
+
+}
+
+Os eventos podem ser configurados na parte HTML ou diretamente no JavaScript
+
+
+EX :
+
+<body>
+    <div id="area" onclick="clicar()">
+        Interaja...
+    </div>
+    <script>
+        function clicar(){
+            let area = window.document.getElementById('area')
+            area.innerText = 'Clicou'
+        }
+    </script>
+</body>
+
+
 
 
 
