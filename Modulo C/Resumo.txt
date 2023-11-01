@@ -59,7 +59,14 @@ Toda ID é representada pro uma # .
 Aula 10 
 
 
+Questão 1 : O que significa a sigla DOM ?
+R: Document Object Model
 
+Questão 2 : Sabe montar a árvore DOm de um website simples ?
+R: Sim, é o corpo do html e do css
+
+Questão 3 : O que são os elementos Parent e os elementos Child em uma árvore DOM ?
+R : 
 
 
 
