@@ -69,7 +69,12 @@ Questão 3 : O que são os elementos Parent e os elementos Child em uma árvore 
 R : Parent são as Tags pais e Child são as TAGs filhos que estão dentro de uma tag pai .
 
 Questão 4 : Quais são os cinco principais métodos de selecionar elementos DOM dentro do JS ?
-R : 
+R : Por marca , ID , Nome , Classe , Seletor
+
+
+Eventos DOM 
+
+
 
 
 
