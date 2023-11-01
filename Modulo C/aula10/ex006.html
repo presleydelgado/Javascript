@@ -21,10 +21,15 @@
         Interaja...
     </div>
     <script>
-        let area = window.document.getElementById
-        area.addEventListener('click', clicar);
+        //variavel com o gancho para pegar a ID
+        let area = window.document.getElementById('area') // NÃO SE ESQUEÇA DA PORRA DO (NOME DO ID) SE NÃO NUNCA IRÁ FUNCIONAR...
+
+        area.addEventListener('click', clicar);     //NÃO USE "ON" NO COMEÇO DAS TAGS
         area.addEventListener('mouseenter', entrar);
-        area.addEventListener('onmouseout', saiu);
+        area.addEventListener('mouseout', saiu);
+
+        // FOI COLOCADO AQUI ^^^^^MAS É ERRADO POR QUESTÕES DE MEMÓRIA,APENAS PARA TESTES
+
         function clicar(){
             
             area.innerText = 'Clicou'
