@@ -47,6 +47,12 @@ else{
 	false
 }
 
+
 if = se
 else = se não 
+
+
+
+Tipos de condição :
+
 
