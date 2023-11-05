@@ -1,0 +1,52 @@
+Condições em JavaScript
+
+Condições simples (IF), Condições compostas (IF , ELSE ), Condições aninhadas ( Else IF ) , Condições Multiplas (Switch case ).
+
+
+Aula 11
+
+Questão 1 : Três eventos com elementos DOM que podem acontecer em um site ?
+R: Onmouse,Onclick,Mouseup,Mousedown.
+
+Questão 2 : O que é uma função ? Como criar funções em JS ?
+R:Função é um bloco de código, 
+ex :função aaa (numero) {
+	return numero * numero;
+}
+
+Questão 3 : Sabe como pegar os valores de caixas de texto e fazer cálculos com eles ?
+R:let tn1 = window.document.getElementById('txtn1') // de uma forma
+            let tn2 = window.document.querySelector('input#txtn2') // de outra forma
+            let res = window.document.getElementById('res')
+            let n1 = Number(tn1.value)
+            let n2 = Number(tn2.value)
+            let s = n1 + n2
+
+Usando getElementById ou querySelector
+
+
+
+Condições em JS parte 1 
+
+Sequencias 
+
+var n = 3
+
+n += 2 
+
+window.alert(n)
+
+não tem como executar sem ser na ordem.
+
+Condições:
+
+if (condição){
+	true
+}
+else{
+	false
+}
+
+if = se
+else = se não 
+
