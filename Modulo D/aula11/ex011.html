@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 9 desafio resposta</title>
+</head>
+<body>
+    <h1>Países</h1>
+    Digite o nome do país em que você vive: <input type="text" name="txtpais" id="txtpais"> 
+    <input type="button" value="OK!" onclick="calcular()"> <!--Puta merda,quebrando a cabeça por quase meia hora,NÃO SE ESQUEÇA DOS () NO FINAL DO ONCLICK,SE NÃO NUNCA IRÁ FUNCIONAR E O JS NÃO AVISA NADA NO LOG-->
+    <div id="resultado"></div>
+    
+    <script>
+        ('txtpais')
+        function calcular() {
+            let paisescolhido = window.document.querySelector('txtpais')
+            
+            let resultado = window.document.querySelector('div#resultado')
+            resultado.innerHTML = `O país escolhido foi}`
+            if (paisescolhido == 'brasil'){
+                resultado.innerHTML += `Brasileiro`
+            }else{
+                resultado.innerHTML += `Estrangeiro`
+            }
+            
+        }
+    </script>
+</body>
+</html>
