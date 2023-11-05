@@ -55,4 +55,11 @@ else = se não
 
 Tipos de condição :
 
+"CONDIÇÃO SIMPLES"
+
+if (condição) {
+	true
+}
+
+(SE A CONDIÇÃO FOR FALSA,NADA IRÁ ACONTECER).
 
