@@ -14,10 +14,9 @@
     <script>
         ('txtpais')
         function calcular() {
-            let paisescolhido = window.document.querySelector('txtpais')
-            
-            let resultado = window.document.querySelector('div#resultado')
-            resultado.innerHTML = `O país escolhido foi}`
+            var paisescolhido = document.querySelector('#txtpais').value //Tamo quase lá porra...
+            var resultado = window.document.querySelector('div#resultado')
+            resultado.innerHTML = `O país escolhido foi ${paisescolhido}}`
             if (paisescolhido == 'brasil'){
                 resultado.innerHTML += `Brasileiro`
             }else{
