@@ -15,15 +15,15 @@
         ('txtpais')
         function calcular() {
             var paisescolhido = document.querySelector('#txtpais').value //Tamo quase lá porra...
-            var resultado = window.document.querySelector('div#resultado')
-            resultado.innerHTML = `O país escolhido foi ${paisescolhido}}`
-            if (paisescolhido == 'brasil'){
-                resultado.innerHTML += `Brasileiro`
+            var resultado = window.document.querySelector('div#resultado') 
+            resultado.innerHTML = `O país escolhido foi : ${paisescolhido}`
+            if (paisescolhido.toLowerCase() == 'brasil'){   //Lower case para não dar erro com maiusculas e minusculas
+                resultado.innerHTML += `<p><strong>Brasileiro</strong></p>` //+= para concatenar e não cagar tudo
             }else{
-                resultado.innerHTML += `Estrangeiro`
+                resultado.innerHTML += `<p><strong>Estrangeiro</strong></p>`
             }
             
-        }
+        } //Caralho vai toma no cu , consegui essa porra...
     </script>
 </body>
 </html>
