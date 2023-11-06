@@ -16,11 +16,11 @@
         function calcular() {
             var paisescolhido = document.querySelector('#txtpais').value //Tamo quase lá porra...
             var resultado = window.document.querySelector('div#resultado') 
-            resultado.innerHTML = `O país escolhido foi : ${paisescolhido}`
+            resultado.innerHTML = `O país escolhido foi : ${paisescolhido}` //tem que usar crase ` ` , para poder por ${}
             if (paisescolhido.toLowerCase() == 'brasil'){   //Lower case para não dar erro com maiusculas e minusculas
-                resultado.innerHTML += `<p><strong>Brasileiro</strong></p>` //+= para concatenar e não cagar tudo
+                resultado.innerHTML = `<p><strong>Brasileiro</strong></p>` 
             }else{
-                resultado.innerHTML += `<p><strong>Estrangeiro</strong></p>`
+                resultado.innerHTML  = `<p><strong>Estrangeiro</strong></p>`
             }
             
         } //Caralho vai toma no cu , consegui essa porra...
