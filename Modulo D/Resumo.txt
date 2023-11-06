@@ -63,3 +63,17 @@ if (condição) {
 
 (SE A CONDIÇÃO FOR FALSA,NADA IRÁ ACONTECER).
 
+
+Aula 12 
+
+Questão 1 : sabe utilizar a extensão node exec ? 
+R: sim
+
+Questão 2 : Sabe criar uma condição no javascript ?
+R: Sim
+
+Questão 3 : Consegue diferenciar condições simples e as condições compostas ? 
+R: Sim 
+
+Condições em JS Parte 2 
+
