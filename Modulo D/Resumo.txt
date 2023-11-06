@@ -77,3 +77,47 @@ R: Sim
 
 Condições em JS Parte 2 
 
+Condição simples =
+
+if ( condição ) {
+true}
+
+condição composta = 
+
+if ( condição ){
+true}
+else{
+false}
+
+
+Condições aninhadas 
+
+São condições compostas com outras condições dentro dela
+
+if (cond1) {
+bloco1
+}else{
+	if(cond2){
+		bloco2
+	}else{
+		bloco3
+	}
+}
+}
+
+
+Condição Múltipla :
+
+Ela tem mais do que a possibilidade de sim e não,ela tem mais possibilidades
+
+
+Switch (expressão) {
+	case valor1:
+	break;
+	case valor2:
+	break;
+	case valor3:
+	break;
+	default: // é o else do switch
+}
+
