@@ -6,21 +6,24 @@
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.409);
+    background-color: rgba(0, 0, 0, 0.87);
     color: white;
 }
 
 h1 {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .fundodaimagem {
-    background-color: white;
+    background-color: rgb(2, 2, 2);
     padding-top: 50px;
     padding-bottom: 50px;
     margin: auto;
     max-width: 700px;
     border-radius: 25px;
+    box-shadow: black 2px 2px 3px;
 }
 
 .meio {
@@ -38,4 +41,5 @@ h1 {
 footer {
     color: white;
     text-align: center;
+    margin-top: 50px;
 }
