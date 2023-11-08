@@ -18,7 +18,9 @@ h1 {
     background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
-    
+    margin: auto;
+    max-width: 700px;
+    border-radius: 25px;
 }
 
 .meio {
@@ -30,6 +32,7 @@ h1 {
 
 .meio img {
     border-radius: 150%;
+    padding-top: 20px;
 }
 
 footer {
