@@ -18,3 +18,4 @@ function checkTime(segundos) {
     };  // add zero in front of numbers < 10
     return segundos;
   }
+
