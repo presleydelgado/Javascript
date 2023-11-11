@@ -11,11 +11,11 @@ resultado.innerHTML = `Agora são : ${hora}:${horamin}:${horaseg} horas`
 setTimeout(startTime,1000);
 
 if(hora >= 0 && hora < 12){
-    img.src = 'foto 136.jpg'
+    img.src = 'imagens/dia-modified.png'
 }else if (hora >= 12 && hora < 18){
-    img.src = 'foto 110.gif'
+    img.src = 'imagens/tarde-modified.png'
 }else {
-    img.src = 'foto 134.jpg'
+    img.src = 'imagens/noite-modified.png'
 }
 
 }

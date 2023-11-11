@@ -39,11 +39,13 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .meio img {
     border-radius: 150%;
     padding-top: 20px;
+
 }
 
 .resultado {
