@@ -11,8 +11,11 @@ header {
 section {
     background: white;
     border-radius: 10px;
-    width: 700px;
+    max-width: 650px;
+    max-height: 500px;
     padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: auto;
     text-align: center;
 }
@@ -25,7 +28,7 @@ section {
 #img{
     display: none;
     margin: auto;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 footer{
