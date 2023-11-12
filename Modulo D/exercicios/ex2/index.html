@@ -12,25 +12,28 @@
     </header>
         <section>
             <div class="meio">
-                Ano de Nascimento: <input type="number" name="anonasc" id="anonasc">
                 <p>
-                    Sexo :  <input type="radio" name="sexo" id="masculino" value="masculino" /> 
+                    Ano de Nascimento: 
+                    <input type="number" name="anonasc" id="anonasc">
+                </p>
+                <p>Sexo : 
+                    <input type="radio" name="sexo" id="mas" checked/> 
                     <label for="masculino">Masculino</label>
-                  
-                    <input type="radio" name="sexo" id="feminino" value="feminino" />
+                    <input type="radio" name="sexo" id="fem"/>
                     <label for="feminino">Feminino</label>
                     <!--Usado botão rádio para poder selecionar apenas uma opção e manter a outra opção apagada-->
                 </p>
-                <p><button class="botao" onclick="verificar">Verificar</button ></p>
+                    <p>
+                        <input type="button" value="Verificar" onclick="verificar()">
+                    </p>
             </div>
-
-            <div>
+            <div id="res">
                 <p>Preencha os campos acimas para ver o resultado !</p>
               </div>
         </section>
     <footer>
         <p>&copy; Cursoemvideo</p>
     </footer>
-    <script src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
