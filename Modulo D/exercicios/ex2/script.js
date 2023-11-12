@@ -15,31 +15,40 @@ function verificar(){
         if (fsex[0].checked){
             genero = 'Homem'
             switch (true){
-                case idade < 18 :
-                    img.src = "imagens/m1.gif"
+                case idade <= 12 :
+                    img.src = "imagens/m1.png"
                     break;
-                case idade < 30 :
+                case idade <= 25 :
                     img.src = "imagens/m2.png"
                     break;
-                case idade > 50 :
-                    img.src = "imagens/m3.jpg"
-                break;
+                case idade >= 25 && idade <= 50:
+                    img.src = "imagens/m3.png"
+                    break;
+                    case idade > 50 && idade < 100 :
+                        img.src = "imagens/m4.png"
+                    break;
+                    case idade > 100 :
+                        img.src = "imagens/f.png"
+                    break;
             }
             img.style.display = 'block';
         } else if (fsex[1].checked){
             genero = 'Mulher'
             switch (true){
-                case idade < 12 :
+                case idade <= 12 :
                     img.src = "imagens/f1.png"
                     break;
-                case idade < 25 :
+                case idade <= 25 :
                     img.src = "imagens/f2.png"
                     break;
-                case idade <= 40 :
+                case idade > 25 && idade <= 50 :
                     img.src = "imagens/f3.png"
                     break;
-                case idade > 50 :
+                case idade > 50 && idade < 100 :
                     img.src = "imagens/f4.png"
+                    break;
+                case idade > 100 :
+                    img.src = "imagens/f.png"
                 break;
             }
             img.style.display = 'block';
