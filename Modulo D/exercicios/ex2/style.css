@@ -21,6 +21,10 @@ section {
     
 }
 
+#img{
+    display: none;
+}
+
 footer{
     color: white;
     text-align: center;
