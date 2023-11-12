@@ -1,14 +1,13 @@
 
 function verificar(){
-    window.alert("FUNCIONOU")
-    let idade = document.getElementById('anonasc')
-    let masc = document.getElementById('masculino')
-    let fem = document.getElementById('feminino')
-    let res = document.getElementById('resultado')
+    let data = new Date()
+    let ano = data.getFullYear()
+    let fano = document.getElementById('txtano')
+    let res = document.querySelector('div#res')
 
-    if(masc == masculino){
-        res.innerHTML = `aaaa ${masc}`    
-    }else if (fem){
-        res.innerHTML = `aaaa ${fem}`
+    if (fano.value == 0 || fano.value > ano){
+        window.alert("erro")
+    }else{
+        window.alert('tudo certo')
     }
 }

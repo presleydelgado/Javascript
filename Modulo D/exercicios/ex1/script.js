@@ -1,4 +1,5 @@
 function startTime(){
+    let msg = document.getElementById('mensagem')
 let img = window.document.getElementById('imagem')
 let agora = new Date()
 let hora = agora.getHours()
@@ -12,10 +13,13 @@ setTimeout(startTime,1000);
 
 if(hora >= 0 && hora < 12){
     img.src = 'imagens/dia-modified.png'
+    msg.innerHTML = "Bom dia ! 🌞"
 }else if (hora >= 12 && hora < 18){
     img.src = 'imagens/tarde-modified.png'
+    msg.innerHTML = "Boa Tarde !⛅"
 }else {
     img.src = 'imagens/noite-modified.png'
+    msg.innerHTML = "Boa Noite ! 🌝"
 }
 
 }

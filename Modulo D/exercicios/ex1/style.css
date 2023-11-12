@@ -18,6 +18,7 @@ body {
 h1 {
     text-align: center;
     margin-top: 0; 
+    padding-top: 15px;
 }
 
 .fundodaimagem {
@@ -51,6 +52,12 @@ h1 {
 .resultado {
     text-align: center;
     margin-bottom: 15px;
+}
+
+div#mensagem {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 17pt;
 }
 
 footer {
