@@ -14,6 +14,7 @@ section {
     width: 700px;
     padding: 10px;
     margin: auto;
+    text-align: center;
 }
 
 .botao {
@@ -23,6 +24,8 @@ section {
 
 #img{
     display: none;
+    margin: auto;
+    padding-top: 15px;
 }
 
 footer{
