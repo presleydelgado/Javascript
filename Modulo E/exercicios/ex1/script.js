@@ -1,0 +1,3 @@
+function contar(){
+    alert('funcionou')
+}
