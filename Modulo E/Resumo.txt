@@ -52,3 +52,55 @@ function comerpizza(){
 	}
 }
 
+
+
+Exemplo : 
+(usando a cachola)
+
+let c = 1
+while (c <= 10){
+    console.log(`Passo ${c}`)
+    c++
+}
+
+(força bruta)
+
+/*console.log("Tudo bem ?")
+console.log("Tudo bem ?")
+console.log("Tudo bem ?")
+console.log("Tudo bem ?")
+console.log("Tudo bem ?")
+console.log("Tudo bem ?")
+*/
+
+
+while (asoidja) 
+
+testa e depois executa
+
+
+do {}  
+
+while()
+
+faz e depois testa
+
+
+
+Aula 14 
+
+Questão 1 : O que eu faço se eu quiser que uma determinada atividade aconteça varias vezes ?
+
+R: use do while ou while ,usando loops 
+
+Questão 2 : sabe diferenciar as estruturas de condição e as estruturas de repetição ?
+
+R: as de condição seriam as if , else if , e as de repetição seriam do while , while .
+
+Questão 3 : consegue dizer a diferença entra as estruturas while e a do...while ? 
+
+R: a while testa e depois faz o bloco, enquanto a do...while executa , e depois testa a condição.
+
+
+Repetições em JS parte 2 
+
