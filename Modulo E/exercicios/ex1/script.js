@@ -10,4 +10,12 @@ function contar(){
     //tem que pegar o inicio , comparar com o valor final
     //pegar o inicio e somar com o passo até chegar no valor final...
 
-    alert
+    if(inicio < fim){
+        do {
+            inicio = (inicio + passo)
+            inicio++
+            
+        }while(inicio == fim)
+        alert(`${inicio}`)
+    }
+}
