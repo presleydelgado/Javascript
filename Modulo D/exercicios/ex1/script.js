@@ -14,12 +14,15 @@ setTimeout(startTime,1000);
 if(hora >= 0 && hora < 12){
     img.src = 'imagens/dia-modified.png'
     msg.innerHTML = "Bom dia ! 🌞"
+    document.body.style.background = '#e2cd9f'
 }else if (hora >= 12 && hora < 18){
     img.src = 'imagens/tarde-modified.png'
     msg.innerHTML = "Boa Tarde !⛅"
+    document.body.style.background = '#b9846f'
 }else {
     img.src = 'imagens/noite-modified.png'
     msg.innerHTML = "Boa Noite ! 🌝"
+    document.body.style.background = '#515154'
 }
 
 }
