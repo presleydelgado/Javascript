@@ -1,0 +1,14 @@
+Iremos tratar sobre repetições em JS 
+
+repetição com teste no inicio  (while)
+
+repetições com teste no final (do while)
+
+repetições com controle (for)
+
+
+Aula 13 - Repetições 
+
+Questão 1 : Sabe mudar a cor de fundo de um site dinamicamente, usando JS ?
+
+
