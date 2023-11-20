@@ -11,4 +11,44 @@ Aula 13 - Repetições
 
 Questão 1 : Sabe mudar a cor de fundo de um site dinamicamente, usando JS ?
 
+R : Para mudar a cor de um site usando javascript, tu necessita de um if ou alguma variavel , depois use (document.body.style.background = 'a cor que tu deseja')
+
+Questão 2 : Consegue inserir uma imagem dentro do seu site sem ter a tag <img> previamente criada?
+
+R: Usando img.src = 'caminho da imagem'  dentro do javascript
+
+Questão 3 : Já treinou o uso de condições simples, compostas,aninhadas e multiplas ? 
+
+R: sim
+
+São os iF, IF ELSE IF , FOR, SWITCH ...
+
+
+Repetições em JS Parte 1 
+
+Podem ser chamados de Laços ou iterações
+
+estrutura de controle , a mais simples é a "sequencia" que é a sequencia até atingir o objetivo
+
+As vezes existem desvios,ou possibilidades,que são as condições
+
+v ou F 
+
+while = enquanto
+
+while ( condição ) {
+
+}
+
+enquanto essa condição for verdadeira,todo comando escrito dentro desse bloco,será executado.
+
+exemplo :
+
+comer pizza
+
+function comerpizza(){
+	while(temfatia()){
+	comerfatia()	
+	}
+}
 
