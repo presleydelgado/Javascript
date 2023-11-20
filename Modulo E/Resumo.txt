@@ -116,3 +116,15 @@ for(inicio;teste;incremento){
 
 }
 
+
+Exercicios 
+
+Questão 1 : Ja aprendeu a usar direito a extensão node no vs ?
+R: sim
+
+Questão 2 : já aprendeu a usar o modo de depuração do vs
+R:sim
+
+Questão 3 : Já fez todos os testes com as estruturas while, do...while e for ?
+R:Sim
+
