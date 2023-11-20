@@ -104,3 +104,15 @@ R: a while testa e depois faz o bloco, enquanto a do...while executa , e depois 
 
 Repetições em JS parte 2 
 
+Existe a estrutura de repetição com variavel de controle
+
+faz a inicialização, teste logico e um incremento.
+
+Sendo o teste logico verdadeiro,ele irá executar,e vai voltar fazendo o loop,mas nessa etapa ele vai fazer o incremento.E quando esse teste ficar falso,ele irá para o encerramento.
+
+Comando for
+
+for(inicio;teste;incremento){
+
+}
+
