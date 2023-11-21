@@ -7,18 +7,27 @@ function contar(){
     let caixa = document.getElementById('caixafundobranco');
     let resposta = [];
    
-    while(inicio <= fim){
-        resposta.push(inicio);
-        if(inicio + passo >= fim){
-            alert(`Fim da operação !`)
-            break;
-        }
-        inicio = inicio += passo;
-        if(resposta.length > 9){
-            caixa.style.height = '300px';
+    try{
+        if(inicio.trim() == "") throw "vazio";
+        while(inicio <= fim){
+            resposta.push(inicio);
+            if(inicio + passo >= fim){
+                break;
             }
-            }
-            resultado.innerHTML = resposta.join(' 👉 ');
+    
+            inicio = inicio += passo;
+            if(resposta.length > 9){
+                caixa.style.height = '300px';
+                }
+                }
+                resultado.innerHTML = resposta.join(' 👉 ');
+
+    } catch(error){
+        alert('Erro')
+    }
+    
+    
+            
         }
         
         
