@@ -16,7 +16,7 @@ h1 {
     text-align: center;
 }
 
-.caixabrancafundo{
+#caixafundobranco{
     margin: auto;
     background-color: white;
     border-radius: 20px;
