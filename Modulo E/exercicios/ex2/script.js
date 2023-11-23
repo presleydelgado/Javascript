@@ -5,9 +5,9 @@ function gerar(){
 
     resultado.innerHTML = ' ';
 
-    for(numero; numero < 10; numero++)
+    for(numero; numero <= 10; numero++)
     {      
-        for(y; y < 10; y++)
+        for(y; y <= 10; y++)
         {
             resultado.innerHTML += `${numero} X ${y} = ${numero*y} <br>`
         }
