@@ -5,33 +5,59 @@ function contar(){
     let passo = document.getElementById('passo').valueAsNumber;   //O segredo tava em por .valueasnumber,se não ele não soma os valores
     let resultado = document.getElementById('resultado');
     let caixa = document.getElementById('caixafundobranco');
-    let resposta = [];
-   
-    try{
-        if(inicio.trim() == "") throw "vazio";
-        while(inicio <= fim){
-            resposta.push(inicio);
-            if(inicio + passo >= fim){
-                break;
-            }
+    let resposta = [];   
+        
     
-            inicio = inicio += passo;
-            if(resposta.length > 9){
-                caixa.style.height = '300px';
-                }
-                }
-                resultado.innerHTML = resposta.join(' 👉 ');
-
-    } catch(error){
-        alert('Erro')
-    }
-    
-    
-            
+    while(inicio <= fim)
+    {
+        resposta.push(inicio);
+        if(inicio + passo > fim)
+        {
+            break;
         }
+
+        inicio = inicio += passo;
+        if(resposta.length > 9)
+        {
+            caixa.style.height = '300px';
+        }
+    }
+        resultado.innerHTML = resposta.join(' 👉 ');   
+}
+        
+         
+       //Forma reduzida do código apenas para o loop...
+       /*
+            inicio = +inicio;   //se usa o + no começo para converter para número,o js caga nesse quesito...
+            passo = +passo;
+            fim = +fim;
+            
+
+            for(let c = inicio;c <= fim; c += passo)
+            {
+                resultado.innerHTML += `${c}👉`;
+                
+            }
+}
+    */
+    
+
+
+    //Isso aqui também funciona...mas algo não está certo
+    //VVVVV
+    /*
+    do
+    {
+        c = inicio += passo;
+        resultado.innerHTML += ` - ${c}`;
+
+    }while(inicio <= fim)
+    */
         
         
-        
+    
+    
+
     
     
 
@@ -63,3 +89,38 @@ function contar(){
 
 */
 
+//----------------------------------
+
+
+    /*
+    do
+    {
+        a += c;
+        resultado += a + " ";
+    }while(a <= b);
+    resultado.innerHTML = `${resultado}`;
+    */  
+
+    /*
+
+
+    do
+    {
+        resultado = inicio += passo;
+        inicio++;
+        
+    }while(inicio < fim);
+    resultado.innerHTML = `${resultado}`
+
+*/
+
+
+
+    /*
+    for(inicio;inicio <= fim;inicio++)
+    {
+        inicio = inicio += passo;
+        resultado.innerHTML += `a`
+    }
+    resultado.innerHTML += `${inicio}`
+    */
