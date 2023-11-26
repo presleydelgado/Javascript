@@ -18,7 +18,7 @@ function contar(){
             break;
         }
 
-        if(inicio.value === ' ')
+        if(inicio === null)
         {
             alert("Campo vazio!");
             return;
