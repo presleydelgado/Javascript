@@ -6,7 +6,9 @@ function contar(){
     let resultado = document.getElementById('resultado');
     let caixa = document.getElementById('caixafundobranco');
     let resposta = [];   
-        
+    let vazio = " ";
+
+    
     
     while(inicio <= fim)
     {
@@ -16,13 +18,28 @@ function contar(){
             break;
         }
 
+        if(inicio.value === ' ')
+        {
+            alert("Campo vazio!");
+            return;
+            
+        }   // não sei porque não funciona... que coisa
+
+        if(passo == 0)
+        {
+            passo = 1
+            alert("PASSO INVALIDO ! \nCONSIDERANDO PASSO 1 !!!");
+        }
+        
         inicio = inicio += passo;
         if(resposta.length > 9)
         {
             caixa.style.height = '300px';
         }
     }
-        resultado.innerHTML = resposta.join(' 👉 ');   
+    
+        resultado.innerHTML = resposta.join(' 👉 ');
+        
 }
         
          
