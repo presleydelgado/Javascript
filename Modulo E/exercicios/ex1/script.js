@@ -4,8 +4,8 @@ function contar(){
     let fim = document.getElementById('fim').valueAsNumber;
     let passo = document.getElementById('passo').valueAsNumber;   //O segredo tava em por .valueasnumber,se não ele não soma os valores
     let resultado = document.getElementById('resultado');
-    let caixa = document.getElementById('caixafundobranco');
-    let resposta = [];      
+    //let caixa = document.getElementById('caixafundobranco');
+    //let resposta = [];      
     
     //VV Parte para dar sinal de erro se não tiver valores digitados.
 
@@ -22,13 +22,38 @@ function contar(){
             passo = 1
             alert("PASSO INVALIDO ! \nCONSIDERANDO PASSO 1 !!!");
         }
+        /*
         else if(resposta.length > 9)
         {
             caixa.style.height = '300px';
         }
+        */
         //Essa parte eu não sabia fazer...
         
-    /*    
+        //Codigo atualizado e ajeitado com os if de um lado e o código da repetição do outro
+
+        resultado.innerHTML += ` `
+
+
+        if(inicio < fim)
+        {
+            for(let conta = inicio; conta <= fim; conta += passo)
+            {
+                resultado.innerHTML += ` ${conta} 👉`
+
+            }
+        }else
+        {
+            for(let conta = inicio; conta >= fim; conta -= passo)
+        {
+            resultado.innerHTML += ` ${conta} 👉`
+        }
+        }
+        
+        resultado.innerHTML += ` 🏁`
+    
+}
+        /*    
     while(inicio <= fim)
     {
         resposta.push(inicio);        
@@ -36,14 +61,6 @@ function contar(){
         resultado.innerHTML = resposta.join(' 👉 ');
     }
     */
-   for(let conta = inicio; conta <= fim; conta += passo)
-   {
-    resultado.innerHTML += ` ${conta} 👉`
-   }
-   resultado.innerHTML += ` 🏁`
-    
-}
-       
 
  /*if(inicio == '')
         {
