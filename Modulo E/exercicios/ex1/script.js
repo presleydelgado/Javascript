@@ -5,41 +5,35 @@ function contar(){
     let passo = document.getElementById('passo').valueAsNumber;   //O segredo tava em por .valueasnumber,se não ele não soma os valores
     let resultado = document.getElementById('resultado');
     let caixa = document.getElementById('caixafundobranco');
-    let resposta = [];   
-    let vazio = " ";
-
-    
+    let resposta = [];      
     
     while(inicio <= fim)
     {
         resposta.push(inicio);
+
         if(inicio + passo > fim)
         {
             break;
-        }
-
-        if(inicio === null)
-        {
-            alert("Campo vazio!");
-            return;
-            
-        }   // não sei porque não funciona... que coisa
-
-        if(passo == 0)
+        }else if(passo == 0)
         {
             passo = 1
             alert("PASSO INVALIDO ! \nCONSIDERANDO PASSO 1 !!!");
-        }
-        
-        inicio = inicio += passo;
-        if(resposta.length > 9)
+        }else if(resposta.length > 9)
         {
             caixa.style.height = '300px';
         }
-    }
-    
-        resultado.innerHTML = resposta.join(' 👉 ');
+
+        /*if(inicio == '')
+        {
+            alert("Campo vazio!");
+            break;
+            
+        }   // não sei porque não funciona... que coisa
+        */
         
+        inicio = inicio += passo;
+    }
+        resultado.innerHTML = resposta.join(' 👉 ');
 }
         
          
