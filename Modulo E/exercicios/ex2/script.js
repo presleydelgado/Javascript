@@ -1,6 +1,7 @@
 function gerar(){
     let numero = document.getElementById('numero').value;
     let resultado = document.getElementById('resultado');
+    let tabuada = document.getElementById('tab');
     let y = 0;
 
     resultado.innerHTML = ' ';
@@ -9,7 +10,10 @@ function gerar(){
     {      
         for(y; y <= 10; y++)
         {
-            resultado.innerHTML += `${numero} X ${y} = ${numero*y} <br>`
+            //resultado.innerHTML += `${numero} X ${y} = ${numero*y} <br>`
+            let item = document.createElement('option')
+            item.text = `${numero} X ${y} = ${numero*y}`
+            tabuada.appendChild(item)
         }
         
         if(numero === "")

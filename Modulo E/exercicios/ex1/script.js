@@ -32,7 +32,7 @@ function contar(){
         
         //Codigo atualizado e ajeitado com os if de um lado e o código da repetição do outro
 
-        resultado.innerHTML += ` `
+        resultado.innerHTML = ` `
 
 
         if(inicio < fim)
