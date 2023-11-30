@@ -15,6 +15,16 @@ console.log(`O primeiro valor do vetor é ${num[0]}`)
 
 for(let pos = 0; pos < num.length; pos++)
 {
+    console.log(num[pos]);
     
-    console.log(num[pos])
+}
+
+//Procurar valores dentro de uma array:
+
+let pos = num.indexOf(4)
+if(pos == -1)   //feito assim para ao inves de aparecer -1, aparecer a mensagem de que o número desejado não foi encontrado!
+{
+    console.log("Valor não encontrado!")
+}else{
+    console.log(`O valor 8 está na posição ${pos}`)
 }
