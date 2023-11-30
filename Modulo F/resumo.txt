@@ -1,0 +1,18 @@
+Variaveis compostoas = Arrays
+
+Uso de funções e eventos
+
+Passagem de parãmetros
+
+Exercicios propostos
+
+
+
+Variaveis simples = Só conseguem armazenar um valor por vez.
+
+Variavel composta = Armazena vários valores .
+
+Para declarar uma variavel composta , exemplo :
+
+vaga a = []
+
