@@ -16,3 +16,17 @@ Para declarar uma variavel composta , exemplo :
 
 vaga a = []
 
+
+
+Aula 16 - Funções
+
+Javascript é uma linguagem que funciona sobre paradigmas funcionais.
+
+
+Toda função tem uma chamada, parâmetro , ação e um retorno. Nem toda função usa parametro e nem todas tem retorno.
+
+
+Funções : são ações executadas assim que são chamadas ou em decorrência de algum evento.
+
+Uma função pode receber parâmetros e retornar um resultado.
+
