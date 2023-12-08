@@ -1,0 +1,19 @@
+*{
+    
+}
+
+body {
+    background-color: rgb(89, 211, 222);
+}
+
+.caixa {
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+}
+
+h1 {
+    color: white;
+}
