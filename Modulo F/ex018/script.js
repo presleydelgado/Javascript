@@ -25,7 +25,9 @@ function adicionar(){
 }
 
 function finalizar(){
-    let resultado = document.getElementsByClassName('resultado')
+    //let resultado = document.getElementsByClassName('resultado')
     let a = document.getElementById('tabelinha').length;
+    
     alert(`Ao todo, Temos ${a} números cadastrados.`)
+    
 }
