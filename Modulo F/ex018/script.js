@@ -26,9 +26,12 @@ function adicionar(){
 
 function finalizar(){
     let resultado = document.getElementById('resultado');
-    let a = document.getElementById('tabelinha').length;
-    let maior = tabelinha.sort()
+    let a = document.getElementById('tabelinha')
     
-    resultado.innerHTML = (`Ao todo temos ${a} números cadastrados !`);
-    resultado.innerHTML = (`O maior valor informado foi ${maior}`)
+    resultado.innerHTML = (`Ao todo temos ${a.length} números cadastrados !`);
+
+    //Quantidade de números AAA
+
+    
+   
 }
