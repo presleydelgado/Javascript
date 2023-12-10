@@ -1,9 +1,11 @@
+const tabela = [tabelinha];
+
 function adicionar(){
     let numero = document.getElementById('numeroEntre');
     //let resultado = document.getElementById('tabelinha').value;
 
     let n = Number(numero.value)
-
+    
     //Erros VVVVVVVV
 
     if(n < 0 || n > 100)
@@ -18,10 +20,12 @@ function adicionar(){
         let item = document.createElement('option')
         item.text = `Valor ${n} adicionado`
         tabelinha.appendChild(item)
+        
     }
 }
 
 function finalizar(){
-    let resultado = document.getElementById('resultado')
-    resultado.innerHTML = `Temos`
+    let resultado = document.getElementsByClassName('resultado')
+    let a = document.getElementById('tabelinha').length;
+    alert(`Ao todo, Temos ${a} números cadastrados.`)
 }
