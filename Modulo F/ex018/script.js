@@ -1,7 +1,9 @@
-const tabela = [];
+    let numero = document.getElementById('numeroEntre'); //input
+    let resultado = document.getElementById('resultado1');
+    let a = document.getElementById('tabelinha');
+    let valores = [];
 
-function adicionar(){
-    let numero = document.getElementById('numeroEntre');
+    function adicionar(){
     //let resultado = document.getElementById('tabelinha').value;
 
     let n = Number(numero.value)
@@ -14,8 +16,11 @@ function adicionar(){
     }else if (n == '')
     {
         window.alert("Campo deixado em branco,por favor digite um valor !")
+    }else if (n == a)
+    {
+        window.alert("Valor repetido")
     }
-    else
+    else 
     {
         let item = document.createElement('option')
         item.text = `Valor ${n} adicionado`
@@ -25,16 +30,19 @@ function adicionar(){
 }
 
 function finalizar(){
-    let resultado = document.getElementById('resultado1');
-    let a = document.getElementById('tabelinha')
+    
     
     resultado1.innerHTML = (`Ao todo temos ${a.length} números cadastrados !`);
 
     //Quantidade de números AAA
     
     
-    tabela.sort()
+    valores.sort()
 
-    resultado2.innerHTML = (`${tabela.value}`)
+    for(let pos=0; pos < valores.length; pos++)
+    {
+        resultado2.innerHTML = (`${pos}, ${valores[pos]}`)
+
+    }
    
 }
