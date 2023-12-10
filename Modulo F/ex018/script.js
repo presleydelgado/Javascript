@@ -1,4 +1,4 @@
-const tabela = [tabelinha];
+const tabela = [];
 
 function adicionar(){
     let numero = document.getElementById('numeroEntre');
@@ -25,13 +25,16 @@ function adicionar(){
 }
 
 function finalizar(){
-    let resultado = document.getElementById('resultado');
+    let resultado = document.getElementById('resultado1');
     let a = document.getElementById('tabelinha')
     
-    resultado.innerHTML = (`Ao todo temos ${a.length} números cadastrados !`);
+    resultado1.innerHTML = (`Ao todo temos ${a.length} números cadastrados !`);
 
     //Quantidade de números AAA
-
     
+    
+    tabela.sort()
+
+    resultado2.innerHTML = (`${tabela.value}`)
    
 }
