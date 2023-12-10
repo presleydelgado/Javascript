@@ -2,8 +2,14 @@
     
 }
 
+header{
+    margin: auto;
+    text-align: center;
+}
+
 body {
-    background-color: rgb(89, 211, 222);
+    background-color: rgb(40, 146, 155);
+    
 }
 
 .caixa {
@@ -11,9 +17,15 @@ body {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
-    width: 400px;
+    width: 600px;
+    
 }
 
 h1 {
     color: white;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
 }
