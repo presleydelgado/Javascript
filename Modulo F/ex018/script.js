@@ -25,9 +25,10 @@ function adicionar(){
 }
 
 function finalizar(){
-    //let resultado = document.getElementsByClassName('resultado')
+    let resultado = document.getElementById('resultado');
     let a = document.getElementById('tabelinha').length;
+    let maior = tabelinha.sort()
     
-    alert(`Ao todo, Temos ${a} números cadastrados.`)
-    
+    resultado.innerHTML = (`Ao todo temos ${a} números cadastrados !`);
+    resultado.innerHTML = (`O maior valor informado foi ${maior}`)
 }
