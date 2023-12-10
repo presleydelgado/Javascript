@@ -4,8 +4,24 @@ function adicionar(){
 
     let n = Number(numero.value)
 
-    let item = document.createElement('option')
-    item.text = `Valor ${n} adicionado`
-    tabelinha.appendChild(item)
-    
+    //Erros VVVVVVVV
+
+    if(n < 0 || n > 100)
+    {
+        window.alert("Valor invalido !")
+    }else if (n == '')
+    {
+        window.alert("Campo deixado em branco,por favor digite um valor !")
+    }
+    else
+    {
+        let item = document.createElement('option')
+        item.text = `Valor ${n} adicionado`
+        tabelinha.appendChild(item)
+    }
+}
+
+function finalizar(){
+    let resultado = document.getElementById('resultado')
+    resultado.innerHTML = `Temos`
 }
