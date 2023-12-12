@@ -1,7 +1,8 @@
     let numero = document.getElementById('numeroEntre'); //input
     let resultado = document.getElementById('resultado1');
-    let a = document.getElementById('tabelinha');
-    let valores = [];
+    let a = document.getElementById('tabelinha'); //lista
+    let valores = []; //array
+    
 
     function adicionar(){
     //let resultado = document.getElementById('tabelinha').value;
@@ -16,10 +17,9 @@
     }else if (n == '')
     {
         window.alert("Campo deixado em branco,por favor digite um valor !")
-    }else if (n == valores)
+    }else if (valores.indexOf(n)== -1) //não sei o porque mas isso só funciona se for true,se for false ele não funciona
     {
-        valores = n == valores
-        window.alert("Valor repetido")
+        window.alert(`O valor ${n} Já existe na lista`)
     }//else if(numero === valores)
     //{
     //    console.log("Valor não encontrado!")
