@@ -16,10 +16,14 @@
     }else if (n == '')
     {
         window.alert("Campo deixado em branco,por favor digite um valor !")
-    }else if (n == a)
+    }else if (n == valores)
     {
+        valores = n == valores
         window.alert("Valor repetido")
-    }
+    }//else if(numero === valores)
+    //{
+    //    console.log("Valor não encontrado!")
+    //}
     else 
     {
         let item = document.createElement('option')
@@ -35,14 +39,5 @@ function finalizar(){
     resultado1.innerHTML = (`Ao todo temos ${a.length} números cadastrados !`);
 
     //Quantidade de números AAA
-    
-    
-    valores.sort()
-
-    for(let pos=0; pos < valores.length; pos++)
-    {
-        resultado2.innerHTML = (`${pos}, ${valores[pos]}`)
-
-    }
-   
+     
 }
