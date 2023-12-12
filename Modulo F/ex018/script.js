@@ -11,16 +11,18 @@
     
     //Erros VVVVVVVV
 
-    if(n < 0 || n > 100)
+    if(n <0 || n > 100)
     {
         window.alert("Valor invalido !")
+        
     }else if (n == '')
     {
         window.alert("Campo deixado em branco,por favor digite um valor !")
-    }else if (valores.indexOf(n)== -1) //não sei o porque mas isso só funciona se for true,se for false ele não funciona
-    {
-        window.alert(`O valor ${n} Já existe na lista`)
-    }//else if(numero === valores)
+        return;
+    }//else if (valores.indexOf(n)== -1) //não sei o porque mas isso só funciona se for true,se for false ele não funciona
+    //{
+    //    window.alert(`O valor ${n} Já existe na lista`)
+    //}//else if(numero === valores)
     //{
     //    console.log("Valor não encontrado!")
     //}
