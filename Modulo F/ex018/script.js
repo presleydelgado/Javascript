@@ -34,8 +34,19 @@
 }
 
 function finalizar(){
-    resultado1.innerHTML = (`Ao todo temos ${a.length} números cadastrados !`);
+    let maior = Math.max.apply(null, valores);
+    let menor = Math.min.apply(null, valores);
+    let soma = 0
+    for(i = 0; i < valores.length; i++)
+    {
+        soma += valores[i];
+    }
 
-    //Quantidade de números AAA
-     
+    let media = (soma/i)
+
+    resultado1.innerHTML = (`Ao todo temos <strong>${a.length}</strong> números cadastrados !`);
+    resultado2.innerHTML = (`O <strong>maior</strong> valor informado foi <strong>${maior}</strong>`);
+    resultado3.innerHTML = (`O <strong>menor</strong> valor informado foi <strong>${menor}</strong>`);
+    resultado4.innerHTML = (`A <strong>soma</strong> de todos os números é igual a : <strong>${soma}</strong>`)
+    resultado5.innerHTML = (`A <strong>média</strong> dos valores somados é igual a : <strong>${media}</strong>`)
 }

@@ -1,5 +1,5 @@
 *{
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -9,6 +9,7 @@ header{
 
 body {
     background-color: rgb(40, 146, 155);
+    background-size: cover;
     
 }
 
