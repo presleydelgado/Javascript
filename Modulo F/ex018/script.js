@@ -14,9 +14,9 @@
 
     if(n <0 || n > 100)
     {
-        window.alert("Valor invalido !")
+        window.alert("Valor fora do alcance do programa ! \nPor favor digite outro valor !")
         
-    }else if (n == '')
+    }else if (numero.value.length == 0)
     {
         window.alert("Campo deixado em branco,por favor digite um valor !")
         return;
@@ -30,13 +30,10 @@
         let item = document.createElement('option')
         item.text = `Valor ${n} adicionado`
         tabelinha.appendChild(item)
-        
     }
 }
 
 function finalizar(){
-    
-    
     resultado1.innerHTML = (`Ao todo temos ${a.length} números cadastrados !`);
 
     //Quantidade de números AAA
