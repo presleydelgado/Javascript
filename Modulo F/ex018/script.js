@@ -8,6 +8,7 @@
     //let resultado = document.getElementById('tabelinha').value;
 
     let n = Number(numero.value)
+
     
     //Erros VVVVVVVV
 
@@ -19,15 +20,13 @@
     {
         window.alert("Campo deixado em branco,por favor digite um valor !")
         return;
-    }//else if (valores.indexOf(n)== -1) //não sei o porque mas isso só funciona se for true,se for false ele não funciona
-    //{
-    //    window.alert(`O valor ${n} Já existe na lista`)
-    //}//else if(numero === valores)
-    //{
-    //    console.log("Valor não encontrado!")
-    //}
+    }else if (valores.indexOf(n)!== -1) //não sei o porque mas isso só funciona se for true,se for false ele não funciona
+    {
+        window.alert(`O valor ${n} Já existe na lista`)
+    }
     else 
     {
+        valores.push(Number(numero.value))
         let item = document.createElement('option')
         item.text = `Valor ${n} adicionado`
         tabelinha.appendChild(item)
