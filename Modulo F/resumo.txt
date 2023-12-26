@@ -30,3 +30,17 @@ Funções : são ações executadas assim que são chamadas ou em decorrência d
 
 Uma função pode receber parâmetros e retornar um resultado.
 
+
+
+Aula 17
+
+Objeto
+
+ex:
+
+let amigo = {nome:'José',sexo:'M',peso:85.4,engordar(p){}}
+amigo
+
+José     M      85.4    [function]
+NOME    SEXO    PESO    ENGORDAR()
+
